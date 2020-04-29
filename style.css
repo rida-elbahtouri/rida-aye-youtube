@@ -36,3 +36,38 @@ body{
     border: 0px;
     
 }
+#title-chose-lang{
+    background-color: #167AC6;
+ 
+}
+#title-chose-lang p{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+   
+}
+#title-chose-lang img{
+    vertical-align: middle;
+    padding-right: 5px;
+}
+#x-icon{
+    position: absolute;
+    right: 10px;
+}
+#support-text{
+    background-color: white;
+    border: 2px #167AC6 solid;
+    margin-top: -18px;
+}
+#discription-chose-lang span{
+color:#167AC6 ;
+cursor:no-drop;
+}
+#learn-more{
+    position: absolute;
+    right: 10px;
+    cursor:default;
+}
+#learn-more a{
+    text-decoration: none;
+}
