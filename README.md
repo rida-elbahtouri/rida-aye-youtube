@@ -1,6 +1,8 @@
 <h1> Youtube Clone</h1>
-![Screenshot](Screenshot.png)
-Additional description about the project and its features.
+
+![alt text](https://github.com/rida-elbahtouri/rida-aye-youtube/blob/features-branch/Screenshot.png "screenshot")
+
+<p>Additional description about the project and its features.</p>
 <h1>Built With</h1>
 <ul>
 <li>HTML</li>
