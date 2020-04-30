@@ -26,7 +26,9 @@ body{
 #search-icon{
     height: 24px;
 }
-
+#upload-icon{
+    margin-left: 100px;
+}
 #signin-button{
     background-color: #167AC6;
     color: white;
@@ -34,7 +36,7 @@ body{
     height: 34px;
     border-radius: 5px;
     border: 0px;
-    margin-left: 100px;
+    
     
 }
 .chose-lang{
@@ -141,4 +143,27 @@ cursor:no-drop;
     right: 10px;
     top: 440px;
     font-size: 22px;
+}
+.video-image{
+    position: relative;
+
+}
+.make-grid{
+    position: absolute;
+    right: 160px;
+    top: 2px;
+    width: 200px;
+   
+}
+.make-grid p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    
+}
+.video-sug{
+    position: relative;
+    
 }
