@@ -106,3 +106,25 @@ cursor:no-drop;
 .video-player{
     background-color:white;
 }
+.side-bar{
+    margin-left: 30px !important;
+    background-color: white;
+    padding-bottom: 6px;
+    }
+    
+#autoplay{
+    color:gray;
+    position: absolute;
+    right: 90px;
+    
+}
+#text-sidebare{
+    margin-top: 5px;
+    vertical-align: middle;
+}
+#views{
+    position: absolute;
+    right: 10px;
+    top: 440px;
+    font-size: 22px;
+}
