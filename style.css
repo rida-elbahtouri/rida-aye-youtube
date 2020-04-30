@@ -34,7 +34,13 @@ body{
     height: 34px;
     border-radius: 5px;
     border: 0px;
+    margin-left: 100px;
     
+}
+.chose-lang{
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
 }
 #title-chose-lang{
     background-color: #167AC6;
@@ -71,7 +77,15 @@ cursor:no-drop;
 #learn-more a{
     text-decoration: none;
 }
+#youtube-video{
+    width:640px; 
+    height:360px;
 
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
 .cusor {
     cursor:pointer;
 }
