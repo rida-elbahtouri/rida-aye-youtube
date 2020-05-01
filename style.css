@@ -5,13 +5,18 @@ body{
 }
 button{
     border-style: none;
+    background-color: white;
 }
 #nav-bar{
     display: inline-block;
     width: 100%;
     background-color:white;
     text-align: center;
-    margin-bottom: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    
 }
 .nav-element{
     display: inline;
@@ -45,6 +50,7 @@ button{
 .chose-lang{
     width: 95%;
     margin: 0 auto;
+    margin-top: 50px;
     position: relative;
 }
 #title-chose-lang{
@@ -91,8 +97,14 @@ cursor:no-drop;
     margin: 0 auto;
 }
 .cusor {
-    cursor:pointer;
-    
+    cursor:pointer;  
+}
+#chanel-buttons{
+    margin-top: 8px;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 5px;
 }
 .bottom-icon{
     display: inline-block;
@@ -136,10 +148,13 @@ cursor:no-drop;
     background-color:white;
 }
 .side-bar{
-    margin-left: 30px !important;
+    margin-left: 2px !important;
+    position: relative;
     background-color: white;
     padding-bottom: 6px;
-    }
+    width: 420px;
+    float: left;
+}
     
 #autoplay{
     color:gray;
@@ -153,9 +168,11 @@ cursor:no-drop;
 }
 #views{
     position: absolute;
-    right: 10px;
-    top: 440px;
+    right: 20px;
+    top: 475px;
     font-size: 22px;
+    padding-left: 40px;
+    border-bottom: 2px solid #167AC6;
 }
 .video-image{
     position: relative;
@@ -163,9 +180,9 @@ cursor:no-drop;
 }
 .make-grid{
     position: absolute;
-    right: 160px;
+    right: 50px;
     top: 2px;
-    width: 200px;
+    width: 185px;
    
 }
 .make-grid p{
