@@ -7,7 +7,7 @@ button{
     border-style: none;
     background-color: white;
 }
-#nav-bar{
+.nav-bar{
     display: inline-block;
     width: 100%;
     background-color:white;
@@ -23,21 +23,27 @@ button{
     vertical-align: middle;
     margin-right: 30px;
 }
-#search{
+.search{
     margin-right: 0;
 }
-#search-box{
+.search-box{
     width: 600px;
     height: 24px;
     margin-right: 0;
 }
-#search-icon{
-    height: 24px;
+.search-icon{
+    height: 28px;
+    border: 1px solid gray;
+    margin-left: -7px ;
+    margin-bottom: 1px;
 }
-#upload-icon{
+.search-icon:active{
+    border: 1px solid #167AC6;
+}
+.upload-icon{
     margin-left: 100px;
 }
-#signin-button{
+.signin-button{
     background-color: #167AC6;
     color: white;
     width: 70px;
@@ -51,44 +57,45 @@ button{
     width: 95%;
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 10px;
     position: relative;
 }
-#title-chose-lang{
+.title-chose-lang{
     background-color: #167AC6;
  
 }
-#title-chose-lang p{
+.title-chose-lang p{
     font-size: 16px;
     font-weight: bold;
     color: white;
    
 }
-#title-chose-lang img{
+.title-chose-lang img{
     vertical-align: middle;
     padding-right: 5px;
 }
-#x-icon{
+.x-icon{
     position: absolute;
     right: 10px;
 }
-#support-text{
+.support-text{
     background-color: white;
     border: 2px #167AC6 solid;
     margin-top: -18px;
 }
-#discription-chose-lang span{
+.discription-chose-lang span{
 color:#167AC6 ;
 cursor:no-drop;
 }
-#learn-more{
+.learn-more{
     position: absolute;
     right: 10px;
     cursor:default;
 }
-#learn-more a{
+.learn-more a{
     text-decoration: none;
 }
-#youtube-video{
+.youtube-video{
     width:640px; 
     height:360px;
 }
@@ -99,12 +106,13 @@ cursor:no-drop;
 .cusor {
     cursor:pointer;  
 }
-#chanel-buttons{
+.chanel-buttons{
     margin-top: 8px;
     background-color: white;
     padding-top: 20px;
     padding-bottom: 10px;
     padding-left: 5px;
+    position: relative;
 }
 .bottom-icon{
     display: inline-block;
@@ -125,28 +133,26 @@ cursor:no-drop;
 
 }
 
-#subscribe{
+.subscribe{
     height: 30px;
     margin-top: -15px;
     
 }
 
-#like{
+.like{
     position: absolute;
     right: 10px;
     display: inline;
 }
 
-#grouping{
+.grouping{
     width: 640px;
     position: relative;
    float: left;
-   margin-right: 30px;
+   margin-right: 10px;
    z-index: 2;
 }
-.video-player{
-    background-color:white;
-}
+
 .side-bar{
     margin-left: 2px !important;
     position: relative;
@@ -154,22 +160,23 @@ cursor:no-drop;
     padding-bottom: 6px;
     width: 420px;
     float: left;
+    padding-left: 5px;
 }
     
-#autoplay{
+.autoplay{
     color:gray;
     position: absolute;
     right: 90px;
     
 }
-#text-sidebare{
+.text-sidebare{
     margin-top: 5px;
     vertical-align: middle;
 }
-#views{
+.views{
     position: absolute;
     right: 20px;
-    top: 475px;
+    top: 104px;
     font-size: 22px;
     padding-left: 40px;
     border-bottom: 2px solid #167AC6;
