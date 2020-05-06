@@ -100,7 +100,7 @@ cursor:no-drop;
     height:360px;
 }
 .container{
-    width: 90%;
+    width:1200px;
     margin: 0 auto;
 }
 .cusor {
@@ -124,7 +124,7 @@ cursor:no-drop;
 
 .odin{
     padding-top: 2px;
-    
+    margin-block-end: 0;
 }
 
 .subscribe-channel-button{
@@ -134,17 +134,25 @@ cursor:no-drop;
 }
 
 .subscribe{
-    height: 30px;
-    margin-top: -15px;
-    width: 150px;
+    height: 26px;
+    margin-top: 3px;
+    width: 120px;
     padding: 0;
+    padding-left: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    background:red url(image/subscribe.svg) no-repeat scroll 6px 3px;
+    background-size: 21px 21px;
+    border-radius: 5px;
 }
-.subscribe-img{
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin-bottom: -4px;
-
+.number-subscribed{
+    border: 1px solid gray;
+    padding: 3px;
+    border-left: 0;
+    margin-left: -6px;
+    padding-bottom: 4px;
+    
 }
 .like{
     position: absolute;
@@ -183,7 +191,7 @@ cursor:no-drop;
 .views{
     position: absolute;
     right: 20px;
-    top: 100px;
+    top: 94px;
     font-size: 22px;
     padding-left: 40px;
     border-bottom: 2px solid #167AC6;
