@@ -167,9 +167,32 @@ cursor:no-drop;
     position: relative;
    float: left;
    margin-right: 10px;
-   z-index: 2;
+   margin-bottom: 120px;
+   
 }
-
+.discription{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.discription p{
+    color: #757575;
+    text-align: left;
+   
+}
+.showmore{
+    border-top: 1px solid gray;
+    text-align: center;
+    width: 660px;
+    height: 30px;
+    font-size: 10px;
+    font-weight: bold;
+    color:#757575 ;
+}
 .side-bar{
     margin-left: 2px !important;
     position: relative;
@@ -233,4 +256,81 @@ cursor:no-drop;
 .video-sug{
     position: relative;
     width: 100%;
+}
+footer{
+    clear: both;
+    width: 100%;
+    color: white;
+    padding: 30px 5px 15px 5px;
+    background-color: white;
+    
+}
+.inline{
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-top: 28px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+.footer-icon{
+    width: 100px;
+    height: 30px;
+    vertical-align: middle;
+}
+.btn{
+    background-color: #F8F8F8;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 28px;
+    border: 1px solid gray;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    border-radius: 2px;
+}
+.position-sup{
+    background: url(image/select-lang.png) no-repeat scroll 2px 0px;
+    background-size: 24px 24px;
+    width: 140px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.down{
+    background: url(image/down.png) no-repeat scroll 122px 8px;
+    background-size: 11px 11px;
+    width: 140px;
+    padding-right: 30px;
+}
+.res{
+    width: 160px;
+}
+.position-his{
+    background: url(image/history-icon.png) no-repeat scroll 2px 2px;
+    background-size: 20px 20px;
+    width: 80px;
+    padding-left: 15px;
+    padding-right: 0;
+}
+.position-help{
+    background: url(image/help-footer.png) no-repeat scroll 3px 6px;
+    background-size: 14px 14px;
+    width: 70px;
+    padding-left: 5px;
+    padding-right: 0;
+}
+
+footer a{
+    text-decoration: none;
+    color:rgb(51, 51, 51);
+    margin-right: 10px;
+}
+.footer-links{
+    margin-left: 30px;
+
+}
+.footer-links a{
+    margin-right: 5px;
+}
+.sub-links{
+    font-size: 12px;
 }
