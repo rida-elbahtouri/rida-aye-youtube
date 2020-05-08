@@ -7,32 +7,141 @@
     <title>Youtube</title>
 </head>
 <body>
-    <nav id="nav-bar">
-        <div class="nav-element" id="menu">
-            <button class="cusor"><img  src="image/menu-icon.PNG" alt="menu" /></button>
+    <nav class="nav-bar">
+        <div class="nav-element menu">
+            <button class="cusor"><img class="ver-mid" src="image/menu-icon.PNG" alt="menu" /></button>
         </div>
-        <div class="nav-element" id="youtube-icon">
-            <a href="https://www.youtube.com/"><img class="cusor" alt="youtube-icon" src="image/youtube-icon.PNG"/></a>
+        <div class="nav-element youtube-icon">
+            <a href="https://www.youtube.com/"><img class="ver-mid cusor" alt="youtube-icon" src="image/youtube-icon.PNG"/></a>
         </div>
-        <div class="nav-element" id="search">
-            <input id="search-box" placeholder="Search" />
+        <div class="nav-element search">
+            <input class="search-box ver-mid" placeholder="Search" />
+            <img class="nav-element cusor search-icon"  alt="search-icon" src="image/search-icon.PNG"/>
+        </div>
+        <div class="nav-element upload-icon">
+            <a href="https://studio.youtube.com/channel/UCphmteOV1A2kjArBlckJ6Ww/videos/upload?d=ud&filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D">
+                <img class="cusor ver-mid" alt="upload-button" src="image/upload-icon.PNG" /></a>
         </div>
         <div class="nav-element">
-            <button class="cusor"><img id="search-icon" alt="search-icon" src="image/search-icon.PNG"/></button>
+            <button class="cusor"><img class="more-app-icon ver-mid" alt="search-icon" src="image/more-app-icon.png"/></button>
     </div>
-        <div class="nav-element" id="upload-icon">
-            <a href="https://studio.youtube.com/channel/UCphmteOV1A2kjArBlckJ6Ww/videos/upload?d=ud&filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D"><img class="cusor" alt="upload-button" src="image/upload-icon.PNG" /></a>
-        </div>
-        <input class="nav-element cusor" id="signin-button"  type="button" value="Sign in">
+        <input class="nav-element ver-mid signin-button cusor" type="button" value="Sign in">
     </nav>
+    
     <div class="chose-lang">
-        <div id="title-chose-lang">
-           <p> <img alt="support-icon" src="image/support-icon.JPG">Choose your language.<img class="cusor" alt="x-icon" id="x-icon" src="image/x-icon.JPG"> </p>
+        <div class="title-chose-lang">
+           <p> <img alt="support-icon" src="image/support-icon.JPG">Choose your language.<img class="cusor x-icon" alt="x-icon" src="image/x-icon.JPG"> </p>
         </div>
-        <div id="support-text">
-            <p id="discription-chose-lang">You're viewing YouTube in English (US). You can<span> change this preference below.</span> <span id="learn-more"><a target="blank" href="https://support.google.com/youtube/answer/87604?hl=en&visit_id=637000072769461721-1280205538&rd=1&co=GENIE.Platform%3DDesktop&oco=1">learn more</a></span></p>
+        <div class="support-text">
+            <p class="discription-chose-lang">You're viewing YouTube in English (US). You can<span> change this preference below.</span> <span class="learn-more"><a target="blank" href="https://support.google.com/youtube/answer/87604?hl=en&visit_class=637000072769461721-1280205538&rd=1&co=GENIE.Platform%3DDesktop&oco=1">learn more</a></span></p>
         </div>
+    </div>
+<div class="container">
+    <div class="grouping"> 
+        <div class="video-player">
+        <iframe class="youtube-video"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
+        </div>
+            <div class="chanel-buttons">
+                <h2>Contributing to Open Source Part I: The Easy Way </h2>
+                <div>
+                    <img src="image/channel-icon.JPG" alt="channel-icon" class="subscribe-channel-button cusor"/> 
+                    <p class="odin">The Odin Project</p>
+                    <button class="cusor subscribe">Subscribe</button>
+                    <span class="number-subscribed">799</span>
+                    <P class="views">50,016 Views</P>
+                </div>
+                <hr>
+                <div>
+                        <img alt="add-button" class="cusor bottom-icon" src="image/add-button.JPG"/>
+                        <button class="cusor bottom-icon">Add to</button>
+                        <img alt="share-button" class="cusor bottom-icon" src="image/share-button.JPG"/>
+                        <button class="cusor">Share</button>
+                        <img alt="more-button" class="cusor bottom-icon" src="image/more-botton.JPG"/>
+                        <button class="cusor">More</button>
+                    <div class="like"> <img alt="dislike-icon" class="cusor bottom-icon" src="image/thumbs-up.JPG"/>
+                        <button class="cusor">359</button>
+                        <img alt="like-icon"  class="cusor bottom-icon" src="image/thumbs-down.JPG"/>
+                        <button class="cusor">14</button>
+                    </div>
+                </div>
+            </div>
+            <section class="discription">
+               <h4>Published on Feb 27, 2014</h4>
+                   <p>  How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.</p>
+            <button class="showmore">SHOW MORE</button>
+            </section>
+            
     </div>
     
+                <div class="side-bar">
+                    <div class="text-sidebare">
+                        <p>Up next <span class="aut" >Autoplay</span><span class="autoplay"><img alt="switch-icon" src="image/switch.png"></span></p>
+                    </div>
+                <div class="video-sug">
+                    <img alt="video" src="image/video1.png" />
+                    <a href="https://www.youtube.com/watch?v=mENDYhfxH-o">
+                        <div class="make-grid">
+                            <p>Contributing to Open Source Part II: The Real Way</p>
+                            <p>The Odin Project</p>
+                            <p>29,985 views</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="video-sug">
+                    <img alt="video" src="image/video2.png" />
+                    <a href="https://www.youtube.com/watch?v=YJZCUhxNCv8">
+                        <div class="make-grid">
+                        <p>'How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft by</p>
+                        <p>imtiana</p>
+                        <p>981,543 views</p>
+                    </div></a>
+                </div>
+                <div class="video-sug">
+                    <img alt="video" class="video-image" src="image/v3.png" />
+                    <a href="https://www.youtube.com/watch?v=cwDqjmSmtMQ"> <div class="make-grid">
+                        <p>Programming in Visual Basic .Net How to Connect Access Database to</p>
+                        <p>iBasskung</p>
+                        <p>16,130,993 views</p>
+                    </div></a>
+                    
+                </div>
+                <div class="video-sug">
+                    <img alt="video" src="image/v4.png" />
+                    <a href="https://www.youtube.com/watch?v=7YcW25PHnAA"><div class="make-grid">
+                        <p>REST API concepts and examples</p>
+                        <p>WebConcepts</p>
+                        <p>3,580,484 views</p>
+                    </div></a>
+                </div>
+                </div>
+</div>
+<footer>
+<div class="inline">
+    <img class="footer-icon" src="image/footer-icon.png" alt="footer-icon" />
+    <button class="position-sup btn lng-sup" type="button">Language:support</button>
+    <button class="down btn lng-sup" type="button">Location:Netherlands</button>
+    <button class="down res btn" type="button">Restricted Mode: Off </button>
+    <button class="position-his lng-sup btn" type="button">History</button>
+    <button class="position-help btn lng-sup" type="button">Help</button>
+</div>
+<div class="footer-links">
+<p>
+    <a href="https://archive.vn/o/Bss88/https://www.youtube.com/yt/about/">About</a>
+    <a href="https://archive.vn/o/Bss88/https://www.youtube.com/yt/press/">Press</a>
+    <a href="https://archive.vn/o/Bss88/https://www.youtube.com/yt/copyright/">Copyright</a>
+    <a href="https://archive.vn/o/Bss88/https://www.youtube.com/yt/creators/">Creators</a>
+    <a href="https://archive.vn/o/Bss88/https://www.youtube.com/yt/advertise/">Advertise</a>
+    <a href="https://archive.vn/o/Bss88/https://www.youtube.com/yt/dev/">Developers</a>
+</p>
+<p class="sub-links">
+    <a href="https://archive.vn/o/Bss88/https://www.youtube.com/t/terms">Terms</a>
+    <a href="https://archive.vn/o/Bss88/https://www.google.com/intl/en/policies/privacy/">Privacy</a>
+    <a href="https://archive.vn/o/Bss88/https://www.youtube.com/yt/policyandsafety/">Policy & Safety</a>
+    <a href="https://archive.vn/o/Bss88/https://www.youtube.com/testtube">Test new features</a>
+</p>
+</div>
+</footer>
 </body>
 </html>

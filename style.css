@@ -3,31 +3,49 @@ body{
     margin: 0;
     padding: 0;
 }
-#nav-bar{
+button{
+    border-style: none;
+    background-color: white;
+}
+.nav-bar{
     display: inline-block;
-    width: 100%;
+    width:100%;
     background-color:white;
     text-align: center;
-    margin-bottom: 10px;
+    vertical-align: middle;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+.ver-mid{
+    vertical-align: middle;
 }
 .nav-element{
     display: inline;
     vertical-align: middle;
     margin-right: 30px;
 }
-#search{
+.search{
     margin-right: 0;
 }
-#search-box{
+.search-box{
     width: 600px;
     height: 24px;
     margin-right: 0;
 }
-#search-icon{
-    height: 24px;
+.search-icon{
+    height: 28px;
+    border: 1px solid gray;
+    margin-left: -7px ;
+    
 }
-
-#signin-button{
+.search-icon:active{
+    border: 1px solid #167AC6;
+}
+.upload-icon{
+    margin-left: 100px;
+}
+.signin-button{
     background-color: #167AC6;
     color: white;
     width: 70px;
@@ -35,4 +53,297 @@ body{
     border-radius: 5px;
     border: 0px;
     
+}
+@-moz-document url-prefix(){
+    .signin-button{
+        background-color: #167AC6;
+        color: white;
+        width: 70px;
+        height: 34px;
+        border-radius: 5px;
+        border: 0px;
+        margin-top: 3px;
+    }
+}
+.chose-lang{
+    width:100%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin: 50px 10px 10px 5px;
+    position: relative;
+}
+.title-chose-lang{
+    background-color: #167AC6;
+ 
+}
+.title-chose-lang p{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+   
+}
+.title-chose-lang img{
+    vertical-align: middle;
+    padding-right: 5px;
+}
+.x-icon{
+    position: absolute;
+    right: 10px;
+}
+.support-text{
+    background-color: white;
+    border: 2px #167AC6 solid;
+    margin-top: -18px;
+}
+.discription-chose-lang span{
+color:#167AC6 ;
+cursor:no-drop;
+}
+.learn-more{
+    position: absolute;
+    right: 10px;
+    cursor:default;
+}
+.learn-more a{
+    text-decoration: none;
+}
+.video-player{
+    width: 700px;
+}
+.youtube-video{
+    width:100%; 
+    height:360px;
+}
+.container{
+    width:1200px;
+    margin: 0 auto;
+}
+.cusor {
+    cursor:pointer;  
+}
+.chanel-buttons{
+    margin-top: 8px;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    position: relative;
+}
+.bottom-icon{
+    display: inline-block;
+    vertical-align: middle;
+    height: 25px;
+    border-style: none;
+    
+}
+
+.odin{
+    padding-top: 2px;
+    margin-block-end: 0;
+}
+
+.subscribe-channel-button{
+    float: left;
+    margin-right: 10px;
+
+}
+
+.subscribe{
+    height: 26px;
+    margin-top: 3px;
+    width: 120px;
+    padding: 0;
+    padding-left: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    background:red url(image/subscribe.svg) no-repeat scroll 6px 3px;
+    background-size: 21px 21px;
+    border-radius: 5px;
+}
+.number-subscribed{
+    border: 1px solid gray;
+    padding: 3px;
+    border-left: 0;
+    margin-left: -6px;
+    padding-bottom: 4px;
+    
+}
+.like{
+    position: absolute;
+    right: 10px;
+    display: inline;
+}
+
+.grouping{
+    width: 700px;
+    position: relative;
+   float: left;
+   margin-right: 10px;
+   margin-bottom: 120px;
+   
+}
+.discription{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.discription p{
+    color: #757575;
+    text-align: left;
+   
+}
+.showmore{
+    border-top: 1px solid gray;
+    text-align: center;
+    width: 660px;
+    height: 30px;
+    font-size: 10px;
+    font-weight: bold;
+    color:#757575 ;
+}
+.side-bar{
+    margin-left: 2px !important;
+    position: relative;
+    background-color: white;
+    padding-bottom: 6px;
+    width: 420px;
+    float: left;
+    padding-left: 5px;
+}
+.up-next{
+    position: absolute;
+    top: 11px;
+}
+ .aut{
+    position: absolute;
+    right: 170px;
+    top: 11px;
+ }   
+.autoplay{
+    color:gray;
+    position: absolute;
+    right: 90px;
+    top: 5px;
+}
+
+.text-sidebare{
+    margin-top: 5px;
+    
+}
+.text-sidebare p{
+    margin-top: 11px;
+    margin-left: 2px;
+}
+.views{
+    position: absolute;
+    right: 20px;
+    top: 94px;
+    font-size: 22px;
+    padding-left: 40px;
+    border-bottom: 2px solid #167AC6;
+}
+.video-image{
+    position: relative;
+
+}
+.make-grid{
+    position: absolute;
+    right: 50px;
+    top: 2px;
+    width: 185px;
+   
+}
+.make-grid p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    
+}
+.video-sug{
+    position: relative;
+    width: 100%;
+}
+footer{
+    clear: both;
+    width: 100%;
+    color: white;
+    padding: 30px 5px 15px 5px;
+    background-color: white;
+    
+}
+.inline{
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-top: 28px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+.footer-icon{
+    width: 100px;
+    height: 30px;
+    vertical-align: middle;
+}
+.btn{
+    background-color: #F8F8F8;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 28px;
+    border: 1px solid gray;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    border-radius: 2px;
+}
+.position-sup{
+    background: url(image/select-lang.png) no-repeat scroll 2px 0px;
+    background-size: 24px 24px;
+    width: 140px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.down{
+    background: url(image/down.png) no-repeat scroll 122px 8px;
+    background-size: 11px 11px;
+    width: 140px;
+    padding-right: 30px;
+}
+.res{
+    width: 160px;
+}
+.position-his{
+    background: url(image/history-icon.png) no-repeat scroll 2px 2px;
+    background-size: 20px 20px;
+    width: 80px;
+    padding-left: 15px;
+    padding-right: 0;
+}
+.position-help{
+    background: url(image/help-footer.png) no-repeat scroll 3px 6px;
+    background-size: 14px 14px;
+    width: 70px;
+    padding-left: 5px;
+    padding-right: 0;
+}
+
+footer a{
+    text-decoration: none;
+    color:rgb(51, 51, 51);
+    margin-right: 10px;
+}
+.footer-links{
+    margin-left: 30px;
+
+}
+.footer-links a{
+    margin-right: 5px;
+}
+.sub-links{
+    font-size: 12px;
 }
