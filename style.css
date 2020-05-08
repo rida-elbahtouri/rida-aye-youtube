@@ -17,6 +17,9 @@ button{
     top: 0;
     z-index: 2;
 }
+.ver-mid{
+    vertical-align: middle;
+}
 .nav-element{
     display: inline;
     vertical-align: middle;
@@ -34,7 +37,7 @@ button{
     height: 28px;
     border: 1px solid gray;
     margin-left: -7px ;
-    margin-bottom: 2px;
+    
 }
 .search-icon:active{
     border: 1px solid #167AC6;
@@ -50,7 +53,17 @@ button{
     border-radius: 5px;
     border: 0px;
     
-    
+}
+@-moz-document url-prefix(){
+    .signin-button{
+        background-color: #167AC6;
+        color: white;
+        width: 70px;
+        height: 34px;
+        border-radius: 5px;
+        border: 0px;
+        margin-top: 3px;
+    }
 }
 .chose-lang{
     width:100%;
